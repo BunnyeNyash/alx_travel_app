@@ -23,25 +23,29 @@ This project is Milestone 1 of the ALX ProDev Backend Python curriculum, establi
 ```
 alx_travel_app/
 ├── alx_travel_app/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py        # Django settings with MySQL and Swagger configuration
-│   ├── urls.py           # URL routing with Swagger endpoints
-│   ├── wsgi.py
-├── listings/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations/
-│   │   ├── __init__.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py           # App-specific URL configuration
-│   ├── views.py
+|   ├── alx_travel_app/
+│   |   ├── __init__.py
+│   |   ├── asgi.py
+|   |   ├── requirement.txt      # Project dependencies
+│   |   ├── settings.py        # Django settings with MySQL and Swagger configuration
+│   |   ├── urls.py           # URL routing with Swagger endpoints
+│   |   ├── wsgi.py
+|   |   ├── listings/
+│   |   |   ├── __init__.py
+│   |   |   ├── admin.py
+│   |   |   ├── apps.py
+|   |   |   ├── models.py
+│   |   |   ├── tests.py
+│   |   |   ├── urls.py           # App-specific URL configuration
+│   |   |   ├── views.py
+│   |   |   ├── migrations/
+│   |   |   │   ├── __init__.py
+│   ├── manage.py             # Django management script
+|   ├── README.md
 ├── .env                  # Environment variables for secure configuration
 ├── .gitignore            # Git ignore file for Python/Django projects
-├── requirements.txt      # Project dependencies
-├── manage.py             # Django management script
+├── README.md
+|  
 ```
 
 ## Prerequisites
